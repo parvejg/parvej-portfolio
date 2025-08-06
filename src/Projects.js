@@ -16,7 +16,7 @@ const largeProjects = [
   {
     title: "Portfolio Website",
     description: "Personal portfolio built using React & Bootstrap.",
-    link: "https://your-link.com/portfolio",
+    link: "https://parvej-portfolio-dev.vercel.app/",
   },
 ];
 
