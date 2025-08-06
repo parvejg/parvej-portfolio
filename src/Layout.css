@@ -1,0 +1,13 @@
+/* src/components/Layout.css */
+.layout-wrapper {
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+ }
+ 
+ .main-content {
+   flex: 1;
+   padding: 40px 20px;
+   background-color: #f3f4f6;
+ }
+ 
