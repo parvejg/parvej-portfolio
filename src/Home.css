@@ -1,0 +1,175 @@
+/* Global container */
+.home-container {
+  font-family: "Segoe UI", sans-serif;
+  background: #f3f4f6; /* light gray */
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+   font-weight: 700;
+   font-size: 28px;
+   color: #4f46e5; /* Primary Indigo */
+   margin-left: 20px; /* move away from edge */
+   letter-spacing: 1px;
+   font-family: 'Segoe UI', sans-serif;
+   text-shadow: 1px 1px 2px rgba(79, 70, 229, 0.1);
+   transition: transform 0.3s ease;
+   cursor: default;
+ }
+ 
+ .navbar .logo:hover {
+   transform: scale(1.05);
+   text-shadow: 1px 1px 5px rgba(79, 70, 229, 0.3);
+ }
+ 
+
+.nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #1f2937;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #4f46e5; /* indigo */
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 50px;
+}
+
+.intro-text h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #111827; /* near black */
+}
+
+.intro-text h1 span {
+  color: #4f46e5; /* primary accent */
+}
+
+.intro-text p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #374151;
+}
+
+/* Button */
+.btn {
+  background: linear-gradient(
+    135deg,
+    #4f46e5,
+    #6366f1
+  ); /* gradient background */
+  color: white !important;
+  padding: 12px 28px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  box-shadow: 0 4px 14px rgba(79, 70, 229, 0.4); /* subtle glow */
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #4338ca, #6366f1); /* darker on hover */
+  box-shadow: 0 6px 20px rgba(67, 56, 202, 0.5); /* more glow */
+}
+.btn:visited {
+  color: white !important;
+}
+
+/* Avatar */
+.avatar {
+  margin-top: -30px;
+  margin-left: -30px;
+}
+
+.avatar img {
+   border-radius: 50%;
+   width: 220px;
+   height: 220px;
+   object-fit: cover;
+ 
+   /* 👇 Enhanced shadow behind avatar */
+   box-shadow:
+     0 10px 25px rgba(0, 0, 0, 0.1),     /* soft base shadow */
+     0 8px 20px rgba(79, 70, 229, 0.2);   /* indigo glow touch */
+ }
+
+/* Projects Section Inside Home */
+.home-page-projects-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.projects-txt {
+  text-align: left;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #1f2937;
+}
+
+/* Project Card */
+.project-card-h {
+  border: 2px solid #d1d5db;
+  background-color: white;
+  padding: 15px;
+  width: 250px;
+  border-radius: 10px;
+  color: #374151;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.project-card-h:hover {
+  transform: translateY(-5px);
+  border-color: #4f46e5;
+}
+@keyframes typing {
+   from {
+     width: 0;
+   }
+   to {
+     width: 100%;
+   }
+ }
+ 
+ @keyframes blink {
+   50% {
+     border-color: transparent;
+   }
+ }
+ 
+ .typing-text {
+   font-size: 36px;
+   font-weight: 700;
+   color: #111827;
+   white-space: nowrap;
+   overflow: hidden;
+   border-right: 3px solid #4f46e5;
+   width: 0;
+   animation: typing 3s steps(30, end) infinite, blink 0.75s step-end infinite;
+ }
+ 
