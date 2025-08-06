@@ -1,0 +1,66 @@
+/* src/pages/Projects.css */
+
+.projects-container {
+   padding: 60px 20px;
+   background-color: #f9fafb;
+   min-height: 100vh;
+   text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ 
+ .projects-heading {
+   font-size: 2.8rem;
+   margin-bottom: 40px;
+   color: #4f46e5;
+   font-weight: bold;
+ }
+ 
+ .projects-grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+   gap: 25px;
+   max-width: 1200px;
+   margin: 0 auto;
+ }
+ 
+ .project-card {
+   background: #ffffff;
+   padding: 25px;
+   border-radius: 15px;
+   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+   text-align: left;
+ }
+ 
+ .project-card:hover {
+   transform: translateY(-8px);
+   box-shadow: 0 12px 25px rgba(79, 70, 229, 0.2);
+ }
+ 
+ .project-card h2 {
+   font-size: 1.5rem;
+   color: #111827;
+   margin-bottom: 10px;
+ }
+ 
+ .project-card p {
+   font-size: 1rem;
+   color: #6b7280;
+   margin-bottom: 15px;
+ }
+ 
+ .project-btn {
+   display: inline-block;
+   padding: 10px 20px;
+   background-color: #4f46e5;
+   color: #fff;
+   border-radius: 6px;
+   text-decoration: none;
+   font-weight: 500;
+   transition: background-color 0.3s ease;
+ }
+ 
+ .project-btn:hover {
+   background-color: #4338ca;
+ }
+ 

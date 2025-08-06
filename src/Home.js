@@ -2,6 +2,7 @@ import "./Home.css";
 
 import React from "react";
 import "./Home.css";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -11,18 +12,18 @@ const Home = () => {
         <div className="nav-links">
           <a href="#">Home</a>
           <a href="#about">About</a>
-          <a href="#projects">Projects</a>
+          <Link to="/projects">Projects</Link>
           <a href="#contact">Contact</a>
         </div>
       </nav>
 
       <header className="hero-section">
         <div className="intro-text">
-        <h1 className="typing-text">Hi, I’m Md Parvej</h1>
+          <h1 className="typing-text">Hi, I’m Md Parvej</h1>
           <p>I build modern websites using React, Bootstrap & more.</p>
-          <a href="#projects" className="btn">
+          <Link to="/projects" className="btn">
             View Projects
-          </a>
+          </Link>
           <h1 className="projects-txt">Projects</h1>
 
           <div className="home-page-projects-container">
