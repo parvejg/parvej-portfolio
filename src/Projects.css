@@ -63,4 +63,13 @@
  .project-btn:hover {
    background-color: #4338ca;
  }
+ /* Projects.css */
+.section-heading {
+   margin-top: 40px;
+   margin-bottom: 20px;
+   font-size: 28px;
+   color: #333;
+   border-bottom: 2px solid #ccc;
+   display: inline-block;
+ }
  
