@@ -39,7 +39,10 @@ const Home = () => {
             </a>
           </div>
 
-          <h1 className="projects-txt" style={{ marginTop: "40px", textAlign: "center" }}>
+          <h1
+            className="projects-txt"
+            style={{ marginTop: "40px", textAlign: "center" }}
+          >
             Projects
           </h1>
 

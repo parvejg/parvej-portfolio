@@ -18,22 +18,21 @@
 }
 
 .navbar .logo {
-   font-weight: 700;
-   font-size: 28px;
-   color: #4f46e5; /* Primary Indigo */
-   margin-left: 20px; /* move away from edge */
-   letter-spacing: 1px;
-   font-family: 'Segoe UI', sans-serif;
-   text-shadow: 1px 1px 2px rgba(79, 70, 229, 0.1);
-   transition: transform 0.3s ease;
-   cursor: default;
- }
- 
- .navbar .logo:hover {
-   transform: scale(1.05);
-   text-shadow: 1px 1px 5px rgba(79, 70, 229, 0.3);
- }
- 
+  font-weight: 700;
+  font-size: 28px;
+  color: #4f46e5; /* Primary Indigo */
+  margin-left: 20px; /* move away from edge */
+  letter-spacing: 1px;
+  font-family: "Segoe UI", sans-serif;
+  text-shadow: 1px 1px 2px rgba(79, 70, 229, 0.1);
+  transition: transform 0.3s ease;
+  cursor: default;
+}
+
+.navbar .logo:hover {
+  transform: scale(1.05);
+  text-shadow: 1px 1px 5px rgba(79, 70, 229, 0.3);
+}
 
 .nav-links a {
   margin: 0 15px;
@@ -105,16 +104,15 @@
 }
 
 .avatar img {
-   border-radius: 50%;
-   width: 220px;
-   height: 220px;
-   object-fit: cover;
- 
-   /* 👇 Enhanced shadow behind avatar */
-   box-shadow:
-     0 10px 25px rgba(0, 0, 0, 0.1),     /* soft base shadow */
-     0 8px 20px rgba(79, 70, 229, 0.2);   /* indigo glow touch */
- }
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+
+  /* 👇 Enhanced shadow behind avatar */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1),
+    /* soft base shadow */ 0 8px 20px rgba(79, 70, 229, 0.2); /* indigo glow touch */
+}
 
 /* Projects Section Inside Home */
 .home-page-projects-container {
@@ -148,31 +146,31 @@
   border-color: #4f46e5;
 }
 @keyframes typing {
-   from {
-     width: 0;
-   }
-   to {
-     width: 100%;
-   }
- }
- 
- @keyframes blink {
-   50% {
-     border-color: transparent;
-   }
- }
- 
- .typing-text {
-   font-size: 36px;
-   font-weight: 700;
-   color: #111827;
-   white-space: nowrap;
-   overflow: hidden;
-   border-right: 3px solid #4f46e5;
-   width: 0;
-   animation: typing 3s steps(30, end) infinite, blink 0.75s step-end infinite;
- }
- /* Responsive Hero Section */
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.typing-text {
+  font-size: 36px;
+  font-weight: 700;
+  color: #111827;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid #4f46e5;
+  width: 0;
+  animation: typing 3s steps(30, end) infinite, blink 0.75s step-end infinite;
+}
+/* Responsive Hero Section */
 @media (max-width: 768px) {
   .hero-section {
     flex-direction: column;
@@ -243,5 +241,3 @@
   transform: scale(1.2);
   color: #111827;
 }
-
-
