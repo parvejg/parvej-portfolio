@@ -172,4 +172,56 @@
    width: 0;
    animation: typing 3s steps(30, end) infinite, blink 0.75s step-end infinite;
  }
- 
+ /* Responsive Hero Section */
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .intro-text h1 {
+    font-size: 28px;
+  }
+
+  .intro-text p {
+    font-size: 16px;
+  }
+
+  .avatar {
+    margin-top: 30px;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .avatar img {
+    width: 160px;
+    height: 160px;
+  }
+
+  .home-page-projects-container {
+    justify-content: center;
+  }
+
+  .project-card-h {
+    width: 90%;
+    max-width: 300px;
+  }
+
+  .projects-txt {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .btn {
+    padding: 10px 24px;
+    font-size: 14px;
+  }
+
+  .typing-text {
+    font-size: 26px;
+  }
+}
+
