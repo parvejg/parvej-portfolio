@@ -96,7 +96,7 @@ const miniProjects = [
     link: "https://form-ui-five.vercel.app/",
   },
   {
-    title: "Responsive Form UI",
+    title: "Date picker UI",
     description:
       "A clean and interactive date picker UI component designed with HTML, CSS, and JavaScript for seamless date selection.",
     link: "https://datepicker-ui.vercel.app/",
