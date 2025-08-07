@@ -16,28 +16,12 @@ const Home = () => {
 
           {/* ✅ Social Media Links */}
           <div className="social-links">
-            <a
-              href="https://github.com/your-username"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaGithub />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/your-profile"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaLinkedin/>
-            </a>
-            <a
-              href="https://www.instagram.com/your-username"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaInstagram />
-            </a>
-          </div>
+  <p>Social Links:</p>
+  <FaGithub />
+  <FaLinkedin />
+  <FaInstagram />
+</div>
+
 
           <h1
             className="projects-txt"
