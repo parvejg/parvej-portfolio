@@ -14,19 +14,32 @@ const Home = () => {
             View Projects
           </Link>
 
-          {/* ✅ Social Media Links */}
+          {/* ✅ Social Icons */}
           <div className="social-links">
-  <p>Social Links:</p>
-  <FaGithub />
-  <FaLinkedin />
-  <FaInstagram />
-</div>
+            <a
+              href="https://github.com/your-username"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/your-profile"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin />
+            </a>
+            <a
+              href="https://www.instagram.com/your-username"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaInstagram />
+            </a>
+          </div>
 
-
-          <h1
-            className="projects-txt"
-            style={{ marginTop: "40px", textAlign: "center" }}
-          >
+          <h1 className="projects-txt" style={{ marginTop: "40px", textAlign: "center" }}>
             Projects
           </h1>
 
@@ -38,7 +51,7 @@ const Home = () => {
               </div>
               <div className="project-card-h">
                 <p>E-Commerce website</p>
-                <span>A responsive e-commerce website using Api</span>
+                <span>A responsive e-commerce website using API</span>
               </div>
             </div>
           </section>
