@@ -17,21 +17,21 @@ const Home = () => {
           {/* ✅ Social Icons */}
           <div className="social-links">
             <a
-              href="https://github.com/your-username"
+              href="https://github.com/parvejg"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaGithub />
             </a>
             <a
-              href="https://www.linkedin.com/in/your-profile"
+              href="https://www.linkedin.com/in/md-parvej-6b6a5a259/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaLinkedin />
             </a>
             <a
-              href="https://www.instagram.com/your-username"
+              href="https://www.instagram.com/parvez321pg/?hl=en"
               target="_blank"
               rel="noopener noreferrer"
             >
