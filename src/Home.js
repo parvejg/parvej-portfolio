@@ -28,7 +28,7 @@ const Home = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLinkedin />
+              <FaLinkedin/>
             </a>
             <a
               href="https://www.instagram.com/your-username"
